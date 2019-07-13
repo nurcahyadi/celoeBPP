@@ -14,14 +14,13 @@
         <div id="content">
 
           @section('header')
-            @include('navbar')
+            @include('navbardosen')
           @endsection
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
       <i class="fas fa-angle-up"></i>
     </a>
-
 
 
 
@@ -36,12 +35,10 @@
             <thead>
               <tr>
                 <th>No</th>
-                <th>Nama Dosen</th>
-                <th>Nama Hibah</th>
-                <th>Tanggal Mulai</th>
-                <th>Tanggal Berakhir</th>
+                <th>Nama Ketua</th>
+                <th>Nama Matkul</th>
                 <th>Nama Reviewer</th>
-                <th>Aksi</th>
+                <th>Status</th>
 
               </tr>
             </thead>
@@ -51,13 +48,9 @@
                 <td>1</td>
                 <td>adasdas</td>
                 <td>sdasdas</td>
-                <td>27-04-97</td>
-                <td>27-04-97</td>
                 <td>asdadad</td>
                 <td>
                   <button type="button" class="btn btn-light">Detail</button>
-                  <button type="button" class="btn btn-danger" style="margin-left:10px;">Tolak</button>
-                  <button type="button" class="btn btn-success" style="margin-left:10px;">Setujui</button>
                 </td>
 
               </tr>
@@ -69,19 +62,19 @@
 
 
 
-                  </div>
-              </div>
+  </div>
+  </div>
 
 
-            </div>
-            <!-- End of Main Content -->
+  </div>
+  <!-- End of Main Content -->
 
 
-          </div>
-          <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Content Wrapper -->
 
-        </div>
-        <!-- End of Page Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
   </body>
 @endsection
 

@@ -14,7 +14,7 @@
         <div id="content">
 
           @section('header')
-            @include('navbar')
+            @include('navbardosen')
           @endsection
 
     <!-- Scroll to Top Button-->
@@ -27,14 +27,14 @@
 
     <div class="card shadow mb-4" style="margin-right:50px; margin-left:50px;">
       <div class="card-header py-3">
-        <h5 class="m-0 font-weight-bold text-primary">PERJANJIAN KERJASAMA</h5>
+        <h5 class="m-0 font-weight-bold text-primary">PERBAIKAN PROPOSAL</h5>
       </div>
 
       <div class="card-body ">
 
         <div class="card">
           <div class="card-header">
-            Upload Perjanjian Kerjasama
+            Upload Perbaikan Proposal
           </div>
           <div class="card-body">
 
@@ -48,7 +48,7 @@
           </div>
 
           <center>
-        <a href="/uploadpks"> <button type="button" class="btn btn-primary" style="margin-top:10px; margin-bottom:10px;">Submit</button></a>
+        <a href="/homepagedosen">  <button type="button" class="btn btn-primary" style="margin-top:10px; margin-bottom:10px;">Submit</button></a>
           </center>
 
         </div>
@@ -56,19 +56,21 @@
         </div>
 
 
-                      </div>
-                  </div>
 
 
-                </div>
-                <!-- End of Main Content -->
+      </div>
+    </div>
 
 
-              </div>
-              <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Main Content -->
 
-            </div>
-            <!-- End of Page Wrapper -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
   </body>
 @endsection
 

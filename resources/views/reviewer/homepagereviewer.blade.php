@@ -14,7 +14,7 @@
         <div id="content">
 
           @section('header')
-            @include('navbar')
+            @include('navbarreviewer')
           @endsection
 
     <!-- Scroll to Top Button-->
@@ -23,12 +23,10 @@
     </a>
 
 
-
-
     <!-- DataTales Example -->
     <div class="card shadow mb-4" style="margin-right:50px; margin-left:50px;">
       <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Proposal Pengajuan</h6>
       </div>
       <div class="card-body">
         <div class="table-responsive">
@@ -36,12 +34,9 @@
             <thead>
               <tr>
                 <th>No</th>
-                <th>Nama Dosen</th>
-                <th>Nama Hibah</th>
-                <th>Tanggal Mulai</th>
-                <th>Tanggal Berakhir</th>
-                <th>Nama Reviewer</th>
-                <th>Aksi</th>
+                <th>Nama Ketua</th>
+                <th>Nama Matkul</th>
+                <th>Status</th>
 
               </tr>
             </thead>
@@ -50,14 +45,9 @@
               <tr>
                 <td>1</td>
                 <td>adasdas</td>
-                <td>sdasdas</td>
-                <td>27-04-97</td>
-                <td>27-04-97</td>
                 <td>asdadad</td>
                 <td>
-                  <button type="button" class="btn btn-light">Detail</button>
-                  <button type="button" class="btn btn-danger" style="margin-left:10px;">Tolak</button>
-                  <button type="button" class="btn btn-success" style="margin-left:10px;">Setujui</button>
+                <a href="/formnilaipengajuan">  <button type="button" class="btn btn-light">Detail</button></a>
                 </td>
 
               </tr>
@@ -69,19 +59,19 @@
 
 
 
-                  </div>
-              </div>
+  </div>
+  </div>
 
 
-            </div>
-            <!-- End of Main Content -->
+  </div>
+  <!-- End of Main Content -->
 
 
-          </div>
-          <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Content Wrapper -->
 
-        </div>
-        <!-- End of Page Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
   </body>
 @endsection
 

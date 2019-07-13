@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::post('/check','CheckController@check')->name('check');
+
 Route::get('/homeadmin', function () {
     return view('admin.homeadmin');
 });
@@ -53,4 +55,91 @@ Route::get('/uploadpks', function () {
 
 Route::get('/uploadfilepks', function () {
     return view('admin.pengajuan.uploadfilepks');
+});
+
+Route::get('/pengaturan', function () {
+    return view('admin.pengaturan');
+});
+
+
+
+
+
+
+
+Route::get('/homepagedosen', function () {
+    return view('dosen.homepagedosen');
+});
+Route::get('/mendaftarhibah', function () {
+    return view('dosen.daftarhibah');
+});
+Route::get('/pengajuanproposaldosen', function () {
+    return view('dosen.pengajuanproposal');
+});
+Route::get('/perbaikanproposaldosen', function () {
+    return view('dosen.perbaikanproposal');
+});
+Route::get('/downloadpksdosen', function () {
+    return view('dosen.downloadpks');
+});
+Route::get('/laporankemajuandosen', function () {
+    return view('dosen.laporankemajuan');
+});
+Route::get('/laporanakhirdosen', function () {
+    return view('dosen.laporanakhir');
+});
+
+Route::get('/uploadperbaikandosen', function () {
+    return view('dosen.uploadperbaikan');
+});
+Route::get('/uploadlaporankemajuandosen', function () {
+    return view('dosen.uploadlaporankemajuan');
+});
+
+
+
+
+
+Route::get('/homepagereviewer', function () {
+    return view('reviewer.homepagereviewer');
+});
+
+Route::get('/nilaiperbaikan', function () {
+    return view('reviewer.nilaiperbaikan');
+});
+Route::get('/laporankemajuanreviewer', function () {
+    return view('reviewer.laporankemajuanreviewer');
+});
+
+Route::get('/formnilaipengajuan', function () {
+    return view('reviewer.formnilaipengajuan');
+});
+
+Route::get('/formnilaiperbaikan', function () {
+    return view('reviewer.formnilaiperbaikan');
+});
+Route::get('/formnilaikemajuan', function () {
+    return view('reviewer.formnilaikemajuan');
+});
+
+
+
+
+
+Route::get('/homepagekaprodi', function () {
+    return view('kaprodi.homepagekaprodi');
+});
+
+
+
+
+
+Route::get('/homepageph', function () {
+    return view('ph.homepageph');
+});
+Route::get('/laporanakhirph', function () {
+    return view('ph.laporanakhirph');
+});
+Route::get('/laporankemajuanph', function () {
+    return view('ph.laporankemajuan');
 });
