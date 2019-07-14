@@ -27,7 +27,7 @@
     <!-- DataTales Example -->
     <div class="card shadow mb-4" style="margin-right:50px; margin-left:50px;">
       <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+        <h6 class="m-0 font-weight-bold text-primary">LAPORAN AKHIR</h6>
       </div>
       <div class="card-body">
         <div class="table-responsive">
@@ -50,7 +50,7 @@
                 <td>sdasdas</td>
                 <td>asdadad</td>
                 <td>
-                  <button type="button" class="btn btn-light">Detail</button>
+                <a href="/downloadbap">  <button type="button" class="btn btn-light">Detail</button> </a>
                 </td>
 
               </tr>

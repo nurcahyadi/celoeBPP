@@ -95,6 +95,9 @@ Route::get('/uploadperbaikandosen', function () {
 Route::get('/uploadlaporankemajuandosen', function () {
     return view('dosen.uploadlaporankemajuan');
 });
+Route::get('/downloadbap', function () {
+    return view('dosen.downloadbap');
+});
 
 
 
@@ -142,4 +145,10 @@ Route::get('/laporanakhirph', function () {
 });
 Route::get('/laporankemajuanph', function () {
     return view('ph.laporankemajuan');
+});
+Route::get('/downloadlaporankemajuanph', function () {
+    return view('ph.downloadlaporankemajuanph');
+});
+Route::get('/uploadlaporanakhirph', function () {
+    return view('ph.uploadlaporanakhirph');
 });

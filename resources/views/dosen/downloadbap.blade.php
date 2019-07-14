@@ -28,7 +28,7 @@
     <!-- DataTales Example -->
     <div class="card shadow mb-4" style="margin-right:50px; margin-left:50px;">
       <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">PENGAJUAN PROPOSAL</h6>
+        <h6 class="m-0 font-weight-bold text-primary">DOWNLOAD BAP</h6>
       </div>
       <div class="card-body">
         <div class="table-responsive">
@@ -51,7 +51,7 @@
                 <td>sdasdas</td>
                 <td>asdadad</td>
                 <td>
-                  <span class="badge badge-success">Success</span>
+                  <button type="button" class="btn btn-primary">Download</button>
                 </td>
 
               </tr>
@@ -60,6 +60,7 @@
         </div>
       </div>
     </div>
+
 
 
 
